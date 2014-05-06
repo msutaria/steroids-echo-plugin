@@ -10,6 +10,10 @@
   </description>
 
   <asset src="www/EchoPlugin.js" target="plugins/EchoPlugin.js" />
+  
+  <js-module src="www/EchoPlugin.js" name="Echo">
+    <clobbers target="com.appgyver.plugin" />
+  </js-module>
 
   <engines>
     <engine name="cordova" version=">=2.7.0" />
